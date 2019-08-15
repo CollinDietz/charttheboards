@@ -1,0 +1,100 @@
+:root {
+  --primary: #1DB954;
+  --secondary: #828282;
+  --foreground: #FFFFFF;
+  --background: #000000;
+  --negative: #dc3545;
+}
+
+.primary
+{
+  color: var(--primary)
+}
+
+.skinny {
+  width: 75%;
+}
+
+.centered {
+  margin: auto;
+}
+
+.title {
+  text-align: center;
+  font-size: 300%
+}
+
+body {
+  background-color: var(--background);
+  padding-top: 65px;
+}
+
+@media (max-width: 979px) {
+  body {
+    padding-top: 0px;
+  }
+}
+
+html {
+  background-color: var(--background);
+}
+
+.offset_text {
+  position: relative;
+  left: 14%;
+}
+
+a:link {
+  color:var(--foreground);
+}
+
+a:visited {
+  color:var(--foreground);
+}
+
+a:hover {
+  color:var(--primary);
+}
+
+h1
+{
+  text-align: center;
+  color:var(--foreground);
+}
+
+h3
+{
+  text-align: center;
+  color:var(--primary);
+}
+
+.google_chart
+{
+  width: 800px;
+  height: 500px;
+  display: block;
+  margin: 0 auto;
+}
+
+.btn-select:hover{
+  color:var(--primary);
+  background-color: var(--background);
+  border-color:var(--primary);
+}
+
+.btn-remove:hover{
+  color: var(--negative);
+  background-color: var(--background);
+  border-color: var(--negative);
+}
+
+td,
+th{
+    white-space: nowrap;
+    width: 1%;
+}
+
+hr
+{
+  border-color:var(--foreground);
+}
